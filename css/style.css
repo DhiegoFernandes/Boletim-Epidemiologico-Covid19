@@ -1,0 +1,173 @@
+h1 {
+    font-size: 50px;
+    padding: 15px;
+    padding-bottom: 0px;
+    width: auto;
+}
+
+.main {
+    background-color: #E9DEE2;
+    height: 800px;
+}
+
+.container {
+    /* inicializa */
+    display: flex;
+
+    /* aumenta a height e muda a corpara ver o container */
+    height: auto;
+    background-color: #E9DEE2;
+
+    /* flex-direction: column / row */
+    flex-direction: column;
+
+    /* quebra a linha quando o elemento não cabe mais */
+    flex-wrap: wrap;
+
+    /* alinha horizontamente */
+    align-items: center;
+    /* justify-content: center; alinha verticalmente */
+    text-align: center;
+
+
+}
+
+.covid {
+    background-color: #024414;
+    color: white;
+    width: 100%;
+    height: 100px;
+
+}
+
+.menor {
+    background-color: #03914E;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    width: auto;
+    height: 25px;
+
+    /* espaço das laterais do background */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+
+.att{
+    display: flex; 
+    height: auto;
+
+    justify-content: center;
+  
+    
+
+}
+
+
+.calendario{
+/*para usar o justify-contents/align itens, se usa o display flex */
+    display: flex;
+
+    align-items: center;
+}
+
+.atualizado {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+
+    padding-left: 10px;
+
+}
+
+table,
+th,
+td {
+    margin: auto;
+    width: auto;
+    margin-bottom: 10px;
+
+    /* arrendondamento */
+    border-radius: 10px;
+    padding: 12px;
+    height: 10px;
+
+
+
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+    margin-bottom: 0px;
+
+}
+
+.estados {
+    text-align: left;
+}
+
+.letramenor {
+    font-size: 10px;
+}
+
+.verde {
+    color: white;
+    background-color: #03914E;
+    width: 100;
+
+}
+
+.laranja {
+    background-color: #F4951F
+}
+
+.vermelho {
+    background-color: #E72021;
+}
+
+
+.rodape {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+    background-color: #E9DEE2;
+    height: auto;
+    justify-content: center;
+    
+}
+
+
+.brazao {
+    padding-right: 38%;
+
+}
+
+.texto {
+    justify-content: center;
+    padding-left: 38%;
+    text-align: start ;
+
+}
+
+.linkfoto{
+    text-align: center;
+}
+
+
+/*
+justify-content
+align-items
+flex-direction
+order
+align-self
+flex-wrap
+flex-flow
+align-content
+*/
