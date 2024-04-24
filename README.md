@@ -1,3 +1,3 @@
 # EntregaBoletim
 
-https://dhiegofernandes.github.io/EntregaBoletim/
+https://dhiegofernandes.github.io/Boletim-Epidemiologico-Covid19/
